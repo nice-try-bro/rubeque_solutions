@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-include "test.rb"
+require "./lib/reverse_each_word/reverser.rb"
 
 class TestReverseEachWord < Minitest::Test
   def setup
