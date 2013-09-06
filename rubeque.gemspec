@@ -6,10 +6,10 @@ require 'rubeque/version'
 Gem::Specification.new do |spec|
   spec.name          = "rubeque"
   spec.version       = Rubeque::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Alexey Kuznetsov"]
+  spec.email         = ["innercloister@gmail.com"]
+  spec.summary       = %q{Solutions of rubeque problems}
+  spec.description   = spec.summary 
   spec.homepage      = ""
   spec.license       = "MIT"
 
