@@ -1,8 +1,5 @@
 class Reverser
   def reverse_each_word(text)
-    text.split.inject("") { |txt, word| txt << word.reverse << " " }.rstrip
+    text.split.map { |word| word.reverse }.join(' ') 
   end
-
-    
-
 end
