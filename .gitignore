@@ -1,5 +1,6 @@
 .vagrant/
 *~
+*.swp
 *.gem
 *.rbc
 .bundle
