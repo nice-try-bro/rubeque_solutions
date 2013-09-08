@@ -1,7 +1,7 @@
-require 'minitest/autorun'
-require "./lib/reverse_each_word/reverser.rb"
+require 'test_helper'
+require 'rubeque'
 
-class TestReverseEachWord < Minitest::Test
+class RubequeTest < Minitest::Test
   def setup
     @reverser = Reverser.new
   end
