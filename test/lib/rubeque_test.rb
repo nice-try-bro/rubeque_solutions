@@ -14,6 +14,6 @@ class RubequeTest < Minitest::Test
   end
 
   def test_classes
-    assert_equal Bar.new.say_name, "bar"
+    assert_equal Bar.new.say_name, "foo"
   end
 end
