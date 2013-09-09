@@ -1,5 +1,4 @@
 require 'test_helper'
-require 'rubeque'
 
 class RubequeTest < Minitest::Test
   def setup
