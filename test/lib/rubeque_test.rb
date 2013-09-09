@@ -14,7 +14,7 @@ class RubequeTest < TestCase
   end
 
   def test_classes
-    assert_equal @bar.say_name, "bar"
+    assert_equal "bar", @bar.say_name
   end
 
   def test_fibbonacci
