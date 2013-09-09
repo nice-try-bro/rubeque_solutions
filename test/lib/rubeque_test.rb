@@ -6,6 +6,7 @@ class RubequeTest < Minitest::Test
     @reverser = ReverseEachWord::Reverser.new
     @foo = ClassTest::Foo.new
     @bar = ClassTest::Bar.new
+    @fib_generator = Fibonacci::FiboFinder.new
   end
 
   def test_reversing
@@ -15,5 +16,13 @@ class RubequeTest < Minitest::Test
 
   def test_classes
     assert_equal @bar.say_name, "bar"
+  end
+
+  def test_fibbonacci
+    assert_equal 0, @fib_generator.find(0)
+    assert_equal 1, @fib_generator.find 5(1)
+    assert_equal 3, @fib_generator.find 5(4)
+    assert_equal 13, @fib_generator.find 5(7)
+    assert_equal 55, @fib_generator.find 5(10)
   end
 end
