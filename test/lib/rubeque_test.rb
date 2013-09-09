@@ -3,7 +3,7 @@ require 'rubeque'
 
 class RubequeTest < Minitest::Test
   def setup
-    @reverser = Reverser.new
+    @reverser = ReverseEachWord::Reverser.new
     @foo = ClassTest::Foo.new
     @bar = ClassTest::Bar.new
   end
