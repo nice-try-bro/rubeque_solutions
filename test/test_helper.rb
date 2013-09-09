@@ -1,4 +1,3 @@
-#TODO: implement without bundler
 require 'bundler/setup'
 Bundler.require
 require 'minitest/autorun'
