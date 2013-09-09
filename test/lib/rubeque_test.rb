@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class RubequeTest < Minitest::Test
+class RubequeTest < TestCase
   def setup
     @reverser = Rubeque::ReverseEachWord::Reverser.new
     @foo = Rubeque::ClassTest::Foo.new
