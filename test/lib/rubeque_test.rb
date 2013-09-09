@@ -2,10 +2,10 @@ require 'test_helper'
 
 class RubequeTest < Minitest::Test
   def setup
-    @reverser = ReverseEachWord::Reverser.new
-    @foo = ClassTest::Foo.new
-    @bar = ClassTest::Bar.new
-    @fib_generator = Fibonacci::FiboFinder.new
+    @reverser = Rubeque::ReverseEachWord::Reverser.new
+    @foo = Rubeque::ClassTest::Foo.new
+    @bar = Rubeque::ClassTest::Bar.new
+    @fib_generator = Rubeque::Fibonacci::FiboFinder.new
   end
 
   def test_reversing
