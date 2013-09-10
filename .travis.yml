@@ -6,4 +6,4 @@ rvm:
 
 #TODO: use rake
 script: 
-  - Ruby -I test test/lib/rubeque_test.rb
+  - bundle exec Ruby -I test test/lib/rubeque_test.rb
