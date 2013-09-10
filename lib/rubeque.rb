@@ -13,4 +13,8 @@ module Rubeque
   module Fibonacci
     autoload :FiboFinder, 'rubeque/fibonacci/fibo_finder'
   end
+
+  module Randomness
+    autoload :RandGenerator, 'rubeque/randomness/rand_generator'
+  end
 end
