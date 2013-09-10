@@ -2,7 +2,7 @@ module Rubeque
   module HashLittleValue
     class HashMinFinder
       def key_for_min_value(hash)
-        hash[hash.keys.min]
+        hash.key(hash.values.min)
       end
     end
   end
