@@ -5,4 +5,4 @@ rvm:
 # # script: bundle exec rspec spec
 
 #TODO: use rake
-script: bundle "Ruby -I test test/lib/rubeque_test.rb"
+script: Ruby -I test test/lib/rubeque_test.rb
