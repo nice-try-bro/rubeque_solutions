@@ -17,4 +17,8 @@ module Rubeque
   module Randomness
     autoload :RandGenerator, 'rubeque/randomness/rand_generator'
   end
+
+  module HashLittleValue
+    autoload :HashMinFinder, 'rubeque/hash_little_value/hash_min_finder'
+  end
 end
