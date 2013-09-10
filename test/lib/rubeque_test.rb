@@ -33,10 +33,10 @@ class RubequeTest < TestCase
     b = @rand_generator.generate
     c = @rand_generator.generate
     d = @rand_generator.generate
-    assert_equal true, (a > 99 && a < 501)
-    assert_equal true, (b > 99 && b < 501)
-    assert_equal true, (c > 99 && c < 501)
-    assert_equal true, (d > 99 && d < 501)
+    assert a > 99 && a < 501
+    assert b > 99 && b < 501
+    assert c > 99 && c < 501
+    assert d > 99 && d < 501
   end
 
   def test_hash_little_value
