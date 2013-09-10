@@ -7,6 +7,7 @@ class RubequeTest < TestCase
     @bar = Rubeque::ClassTest::Bar.new
     @fib_generator = Rubeque::Fibonacci::FiboFinder.new
     @rand_generator = Rubeque::Randomness::RandGenerator.new
+    @hash_min_finder = Rubeque::HasheLittleValue::HashMinFinder.new
   end
 
   def test_reversing
@@ -36,5 +37,13 @@ class RubequeTest < TestCase
     assert_equal true, (b > 99 && b < 501)
     assert_equal true, (c > 99 && c < 501)
     assert_equal true, (d > 99 && d < 501)
+  end
+
+  def test_hash_little_value
+    assert_equal @hash_min_finder.key_for_min_value({"k" => 2, "h" => 3, "j" => 1}), "j"
+    assert_equal @hash_min_finder.key_for_min_value({"o" => 0, "z" => -2, "j" => 1}), "z"
+    assert_equal @hash_min_finder.key_for_min_value({}), nil
+  end
+  end
   end
 end
