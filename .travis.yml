@@ -3,7 +3,3 @@ rvm:
   - "1.9.3"
 # uncomment this line if your project needs to run something other than `rake`:
 # # script: bundle exec rspec spec
-
-#TODO: use rake
-script: 
-  - bundle exec ruby -I test test/lib/rubeque_test.rb
