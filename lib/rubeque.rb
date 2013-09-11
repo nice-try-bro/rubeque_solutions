@@ -21,4 +21,8 @@ module Rubeque
   module HashLittleValue
     autoload :HashMinFinder, 'rubeque/hash_little_value/hash_min_finder'
   end
+
+  module RegularExpressions
+    autoload :RegExApplicator, 'rubeque/regular_expressions/regex_applicator'
+  end
 end

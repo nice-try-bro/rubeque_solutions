@@ -8,7 +8,7 @@ class RubequeTest < TestCase
     @fib_generator = Rubeque::Fibonacci::FiboFinder.new
     @rand_generator = Rubeque::Randomness::RandGenerator.new
     @hash_min_finder = Rubeque::HashLittleValue::HashMinFinder.new
-    #@regex_applicator = Rubeque::RegularExpressions::RegExApplicator.new
+    @regex_applicator = Rubeque::RegularExpressions::RegExApplicator.new
   end
 
   def test_reversing
