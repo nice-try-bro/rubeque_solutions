@@ -15,14 +15,6 @@ class RubequeTest < TestCase
     assert_equal "bar", @bar.say_name
   end
 
-  def test_fibbonacci
-    assert_equal 0, @fib_generator.find(0)
-    assert_equal 1, @fib_generator.find(1)
-    assert_equal 3, @fib_generator.find(4)
-    assert_equal 13, @fib_generator.find(7)
-    assert_equal 55, @fib_generator.find(10)
-  end
-
   def test_random_generator
     #NOTE: maybe those aquirings shouldn't be there
     a = @rand_generator.generate
