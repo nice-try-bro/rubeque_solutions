@@ -25,4 +25,8 @@ module Rubeque
   module RegularExpressions
     autoload :RegExApplicator, 'rubeque/regular_expressions/regex_applicator'
   end
+
+  module LotteryNumbers
+    autoload :LotteryNumberPicker, 'rubeque/lottery_numbers/lottery_number_picker'
+  end
 end
