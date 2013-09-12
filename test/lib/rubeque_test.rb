@@ -11,10 +11,6 @@ class RubequeTest < TestCase
     @regex_applicator = Rubeque::RegularExpressions::RegExApplicator.new
   end
 
-  def test_classes
-    assert_equal "bar", @bar.say_name
-  end
-
   def test_random_generator
     #NOTE: maybe those aquirings shouldn't be there
     a = @rand_generator.generate
