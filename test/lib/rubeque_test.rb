@@ -11,18 +11,6 @@ class RubequeTest < TestCase
     @regex_applicator = Rubeque::RegularExpressions::RegExApplicator.new
   end
 
-  def test_random_generator
-    #NOTE: maybe those aquirings shouldn't be there
-    a = @rand_generator.generate
-    b = @rand_generator.generate
-    c = @rand_generator.generate
-    d = @rand_generator.generate
-    assert a > 99 && a < 501
-    assert b > 99 && b < 501
-    assert c > 99 && c < 501
-    assert d > 99 && d < 501
-  end
-
   def test_hash_little_value
     assert_equal "j", @hash_min_finder.key_for_min_value({"k" => 2, "h" => 3, "j" => 1})
     assert_equal "z", @hash_min_finder.key_for_min_value({"o" => 0, "z" => -2, "j" => 1})
