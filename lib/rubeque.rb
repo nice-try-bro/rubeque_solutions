@@ -33,4 +33,8 @@ module Rubeque
   module MethodActing
     autoload :MethodActer, 'rubeque/method_acting/method_acter.rb'
   end
+
+  module RectangleArea
+    autoload :Point, 'rubeque/rectangle_area/point'
+  end
 end
