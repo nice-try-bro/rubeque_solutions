@@ -29,4 +29,8 @@ module Rubeque
   module LotteryNumbers
     autoload :LotteryNumberPicker, 'rubeque/lottery_numbers/lottery_number_picker'
   end
+
+  module MethodActing
+    autoload :MethodActer, 'rubeque/method_acting/method_acter.rb'
+  end
 end
