@@ -2,15 +2,15 @@ module Rubeque
   module MethodActing
     class MethodActer
       def dogs
-        name
+        __method__
       end
 
       def cats
-        name
+        __method__
       end
 
       def chunky_bacon
-        name
+        __method__
       end
     end
   end
