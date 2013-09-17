@@ -29,6 +29,6 @@ class RectangleAreaTestCase < TestCase
 
   def test_rectangle_area
     rectangle = @creator.createRectangle 2, 4, 7, -3
-    assert_equal 20, rectangle.area
+    assert_equal 35, rectangle.area
   end
 end
