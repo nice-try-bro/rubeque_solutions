@@ -8,10 +8,10 @@ class RectangleAreaTestCase < TestCase
   end
 
   def test_rectangle_creation
-    p1 = Rubeque::RectangleArea::Point.new 0, 0
-    p2 = Rubeque::RectangleArea::Point.new 3, 4
-    rectangle = Rubeque::RectangleArea::Rectangle.new p1, p2
-    accert_equal p1, rectangle.point1
-    accert_equal p2, rectangle.point2
+    point_1 = Rubeque::RectangleArea::Point.new 0, 0
+    point_2 = Rubeque::RectangleArea::Point.new 3, 4
+    rectangle = Rubeque::RectangleArea::Rectangle.new point_1, point_2
+    assert_equal point_1, rectangle.point1
+    assert_equal point_2, rectangle.point2
   end
 end
