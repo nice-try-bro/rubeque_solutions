@@ -6,6 +6,12 @@ module Rubeque
       def initialize(point1, point2)
         @point1, @point2 = point1, point2
       end
+
+      def area
+        width = @point2.x - @point1.x
+        height = @point2.y - @point1.y
+        width * height
+      end
     end
   end
 end
