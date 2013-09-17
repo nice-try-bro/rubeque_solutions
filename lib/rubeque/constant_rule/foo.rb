@@ -4,7 +4,7 @@ module Rubeque
       CONST = rand(100)
 
       def foo
-        return $CONST
+        return ::CONST
       end
     end
   end
