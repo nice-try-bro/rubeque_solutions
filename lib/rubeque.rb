@@ -42,4 +42,8 @@ module Rubeque
   module ConstantRule
     autoload :Foo, 'rubeque/constant_rule/foo'
   end
+
+  module Lambdas
+    autoload :EvenChecker, 'rubeque/lambdas/even_checker'
+  end
 end
