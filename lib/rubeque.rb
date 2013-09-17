@@ -36,5 +36,6 @@ module Rubeque
 
   module RectangleArea
     autoload :Point, 'rubeque/rectangle_area/point'
+    autoload :Rectangle, 'rubeque/rectangle_area/rectangle'
   end
 end
