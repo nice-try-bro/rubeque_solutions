@@ -8,8 +8,8 @@ module Rubeque
       end
 
       def area
-        width = @point2.x - @point1.x
-        height = @point2.y - @point1.y
+        width = (@point2.x - @point1.x).abs
+        height = (@point2.y - @point1.y).abs
         width * height
       end
     end
