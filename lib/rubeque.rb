@@ -38,4 +38,8 @@ module Rubeque
     autoload :Point, 'rubeque/rectangle_area/point'
     autoload :Rectangle, 'rubeque/rectangle_area/rectangle'
   end
+
+  module ConstantRule
+    autoload :Foo, 'rubeque/constant_rule/foo'
+  end
 end
