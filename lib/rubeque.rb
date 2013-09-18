@@ -50,4 +50,11 @@ module Rubeque
   module EachWithObject
     autoload :EvenLengthReverser, 'rubeque/each_with_object/even_length_reverser'
   end
+
+  module IncludingModules
+    autoload :A, 'rubeque/including_modules/a'
+    autoload :B, 'rubeque/including_modules/b'
+    autoload :C, 'rubeque/including_modules/c'
+    autoload :D, 'rubeque/including_modules/d'
+  end
 end
