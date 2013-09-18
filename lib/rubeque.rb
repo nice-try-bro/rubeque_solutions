@@ -46,4 +46,8 @@ module Rubeque
   module Lambdas
     autoload :EvenChecker, 'rubeque/lambdas/even_checker'
   end
+
+  module EachWithObject
+    autoload :EvenLengthReverser, 'rubeque/each_with_object/even_length_reverser'
+  end
 end
